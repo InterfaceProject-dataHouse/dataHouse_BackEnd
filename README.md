@@ -1,7 +1,5 @@
 # dataHouse_BackEnd
 
-# dataHouse_Project
-
 
 
 ## master 브랜치에는 절대 push 하지 말것!!
@@ -24,7 +22,7 @@ commit message는 자신이 수정한 내용 잘 드러나게 작성하기
   3) git init (처음 할 때만 실행)
   4) git add . 
   5) git commit -m "first commit" (히스토리 생성)
-  6) git remote add origin https://github.com/InterfaceProject-dataHouse/dataHouse_Project.git
+  6) git remote add origin https://github.com/InterfaceProject-dataHouse/dataHouse_BackEnd.git
   7) git push origin master
   ----------------------------------------------------------------------------------------------
   위 방법을 사용하지 않으면 VCS에 직접 url을 넣어 연동도 가능함 (참고 url: https://hoohaha.tistory.com/38)
