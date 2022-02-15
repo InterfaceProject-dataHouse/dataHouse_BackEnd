@@ -1,0 +1,119 @@
+/*
+* {margin:0 auto;}
+
+img {border:0; margin:0;}
+*/
+
+# wrap {
+    width:1280px;
+    margin 0 auto;
+}
+
+.wrap-login {
+    position:relative;
+    padding:30px 30px 0;
+    margin-left:150px;
+}
+
+.sect-loginad{
+    position:absolute;
+    right:30px;
+    top:65px;
+    margin-top:240px;
+    margin-right:100px;
+    width:350px;
+    height:300px;
+}
+
+/* module.css */
+
+.wrap-login{ }
+.wrap-login h3{height:auto;margin:0;background:none;line-height:1.2;text-align:left; color:#222222; font-size:15px;}
+.wrap-login h3 >  strong{ color:#fb4357;}
+.sect-login{ width:541px; }
+.wrap-login .tab-menu-round > li{ width:100px;}
+
+.box-login{padding:30px 0 0 132px; border-bottom:2px solid #898987; height: 266px;}
+.btn_loginNaver{display:inline-block; margin-top:35px;}
+
+
+/* 네이버 로그인 버튼 추가 */
+
+.box-login .login input[type="text"], .box-login .login input[type="password"]{ display:block; width:135px; height:35px; padding:0 5px 0 40px; border:2px solid #b5b5b5; line-height:33px;}
+.box-login .login input[type="text"]{ margin-bottom:5px; background:url('../images/sprite/sprite_icon.png') 12px -230px no-repeat;}
+.box-login .login input[type="password"]{ background:url('../images/sprite/sprite_icon.png') 12px -261px no-repeat;}
+
+
+/* 로그인 최종버전 */
+
+.box-login button[type="submit"] > span {display:block;width:258px;height:36px; border:1px solid #ffff; color:#f8f8f8; font-size:15px; font-weight:500;}
+.box-login .login > button[type="submit"] {position:absolute; top:0; left:198px; display:block; width:100px; height:86px; padding:2px; background:#fb4357; line-height:78px; text-align:center;}
+.sect-login > .box-login fieldset {position:relative;}
+
+
+.box-login fieldset > .login-option {position:absolute; top:169px; right:145px; padding-left: 0!important;}
+
+.box-login fieldset > .login-option a {background-position:right 2px!important;}
+.sect-login > .box-login fieldset .save-id {position:absolute;top:166px;left:-3px}
+
+.sect-login > .box-login fieldset .save-id input[type="checkbox"],
+.sect-login > .box-login fieldset .save-id label{cursor:pointer}
+
+
+.box-login.login_1408 form#form2_capcha {margin-left: 132px;display:none}
+.box-login.login_1408 form#form2_capcha .txt_wrap {position: absolute;top:15px;left: -247px;width: 247px;background:url(../images/common/ico/login_icon4_03.png) no-repeat 90px 0;text-align: center;line-height: 17px;}
+.box-login.login_1408 form#form2_capcha .txt_wrap h3 {color: #fb4357;text-align: center;font-size:15px;line-height:20px;font-weight:500;margin:70px 0 10px}
+
+.box-login.login_1408 form#form2_capcha .login {margin-top:-24px}
+.box-login.login_1408 form#form2_capcha .captcha {padding: 6px 6px;background: #ebeadf;margin-top: 4px;width: 252px;position:relative}
+.box-login.login_1408 form#form2_capcha .captcha .captcha_box a {position:absolute;display:block;font-size:11px;color:#666;left: 195px;padding-left: 14px;}
+.box-login.login_1408 form#form2_capcha .captcha .captcha_box a.btn_refresh {background:url(../images/common/ico/icon_refresh.jpg) no-repeat 0 50%;top: 10px;background-size:11px auto;width: 47px;}
+.box-login.login_1408 form#form2_capcha .captcha .captcha_box a.btn_sound {background:url(../images/common/ico/icon_sound.jpg) no-repeat 0 5px;top: 26px;border-top: 1px solid #898982;padding-top: 4px;
+width: 47px;background-size: 11px auto;}
+.box-login.login_1408 form#form2_capcha .captcha .input_row label{text-indent: -9999px;line-height: 0;font-size: 0;}
+.box-login.login_1408 form#form2_capcha .captcha .captcha_img img {border: 1px solid #bababa;margin-bottom: 2px;}
+.box-login.login_1408 form#form2_capcha .captcha input[type='text'] {margin: 0;width: 239px;}
+.sect-login > .box-login.login_1408 form#form2_capcha fieldset .save-id {top:203px!important}
+
+
+.box-login fieldset > .login-option label {margin-right:20px; font-size:11px;}
+.box-login fieldset > .login-option a {display:inline-block; margin-left:5px; padding-right:8px; background:url('../images/common/bg/bg_arrow03.png') right 1px no-repeat; font-size:12px; text-decoration:underline;}
+
+.box-login.nomember{ height:265px; padding:30px 0 0 0;}
+.box-login.nomember .box-btn{ margin-bottom:30px;}
+.box-login.nomember .box-btn > strong{ display:inline-block; margin-right:20px; color:#222222; font-size:15px; font-weight:300;}
+.box-login.nomember .box-operationguide{ padding:20px 0 20px 40px; border:none; border-top:2px solid #e9e9de; background:none;}
+.box-login.nomember .box-operationguide dt{ text-align:right;}
+.box-login.nomember .box-operationguide dd{ padding:5px 0 0 0; border-left:none; background:url('../images/common/bg/dot_horizontal.gif') 0 0 repeat-x;}
+.box-login.nomember .box-operationguide dt + dd{ padding-top:0; background:none;}
+
+.sect-loginguide{ margin-top:40px; }
+
+.box-useguide{
+    width:915px;
+    height:60px;
+    padding:0 20px;
+    border:1px solid #d5d4ca;
+    margin-left:180px;
+}
+.box-useguide > strong:first-child{ padding-left:0; font-size:13px; line-height:62px; color:#222222;}
+.box-useguide > span{ display:inline-block; color:#666666; line-height:62px;width:208px;white-space:nowrap;}
+.box-useguide .round { width:140px; font-size:12px;}
+.box-useguide strong{ display:inline-block; padding:0 5px 0 18px;}
+.box-useguide em{ display:inline-block; padding:0 5px 0 9px; border-left:1px solid #d5d4ca;}
+.box-useguide strong + em > .round{ width:130px;}
+
+/* TAB Menu Style */
+.tab-menu-round{ clear:both; background:url('../images/common/bg/bg_tabmenu_grade.gif') 0 bottom repeat-x;}
+.tab-menu-round:after{ content:''; clear:both; display:block;}
+*+html .tab-menu-round{ zoom:1;}
+.tab-menu-round > li{ float:left; position:relative; line-height:37px; margin-left:1px; background:#898987; color:#fdfcf0; text-align:center; }
+.tab-menu-round > li:before, .tab-menu-round > li:after{content:''; position:absolute; top:0; display:block; width:5px; height:5px; background:url('../images/common/bg/bg_tab_corner.png') no-repeat; }
+.tab-menu-round > li:before{ left:0; background-position:0 0; }
+.tab-menu-round > li:after{ right:0; background-position:-5px 0; }
+.tab-menu-round > li:first-child{ margin-left:0;}
+.tab-menu-round > li > a{ display:block; color:#ffffff; font-size:13px; font-weight:500;}
+.tab-menu-round > li.on{ background:#fb4357;}
+
+
+

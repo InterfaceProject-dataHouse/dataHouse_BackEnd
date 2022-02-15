@@ -1,0 +1,42 @@
+
+
+    font-family: 'Noto Sans KR', 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+
+div[class^="sect-"] {
+    clear: both;
+    zoom: 1;
+}
+
+
+
+.slider .item-wrap {
+    float: left;
+}
+
+
+
+.slider .item-wrap > .item {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+}
+
+
+
+footer .policy_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 23px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+
