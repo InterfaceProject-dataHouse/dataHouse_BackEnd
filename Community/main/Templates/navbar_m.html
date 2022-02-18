@@ -1,7 +1,11 @@
 {% load static %}
 <div class="header">
 <!-- 서비스 메뉴 -->
-
+    <!--
+        Description
+        - class 'nav' 에 class 'active' 추가시 서브메뉴노출
+        - class 'nav' 에 class 'fixed' 추가시 상단고정되며 스타일 변경됨
+     -->
     <div class="header_content">
         <div class="contents">
             <h1 onclick=""><a href="{%url 'index'%}"><img src="{%static 'image/mainPage/cgvlogoRed.png'%}" alt="CGV" /></a><span>CULTUREPLEX</span></h1>

@@ -172,7 +172,7 @@ $(document).ready(function(){
 
 
 
-        $(document).ready(function () {
+$(document).ready(function () {
         $('.nav_menu > li > h2 > a').on({
             mouseenter: function (e) {
                 var target = e.target;
@@ -288,4 +288,4 @@ $(document).ready(function(){
             }
         });
 
-    });
+});
