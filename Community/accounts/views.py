@@ -4,3 +4,5 @@ from .forms import UserForm  # 회원가입 정보를 얻어와서 저장할 때
 
 # Create your views here.
 
+def login(request):
+    return render(request, 'accounts/login.html')
