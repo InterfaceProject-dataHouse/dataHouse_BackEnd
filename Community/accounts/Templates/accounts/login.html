@@ -30,7 +30,7 @@
         </ul>
         <div class="box-login">
             <h3 class="hidden">회원 로그인</h3>
-            <form id="form1" method="post" action="{% url 'accounts:login' %}" novalidate="novalidate" onsubmit="return false">
+            <form id="form1" method="post" action="{% url 'accounts:login' %}">
                 {% csrf_token %}
             <fieldset>
                 <legend>회원 로그인</legend>
