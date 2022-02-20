@@ -11,4 +11,4 @@ class UserForm(UserCreationForm):
 
     class Meta :  # 기존에 장고에서 제공하는 User모델(table)을 그대로 사용
         model = User  # username, email, password
-        fields = ("username", "email")
+        fields = ("username", "password1", "password2", "email")

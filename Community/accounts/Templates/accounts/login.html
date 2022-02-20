@@ -29,16 +29,17 @@
         </ul>
         <div class="box-login">
             <h3 class="hidden">회원 로그인</h3>
-            <form id="form1" method="post" action="{% url 'accounts:login' %}" novalidate="novalidate" onsubmit="return false">
+            <form id="form1" method="post" action="{% url 'accounts:login' %}">
                 {% csrf_token %}
+                <input type="hidden" name="next" value="{{ next }}">  <!-- 로그인 성공후 이동되는 URL --> <!--##########################-->
                 <fieldset>
                     <legend>회원 로그인</legend>
                     <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
                     <div class="login">
                         {% include "form_errors.html" %}
-                        <input type="text" title="아이디" id="userid" name="userid" required="required"
+                        <input type="text" class="form-control" id="username" name="username"
                             value="{{ form.username.value|default_if_none:'' }}">
-                        <input type="password" title="패스워드" id="password" name="password" required="required"
+                        <input type="password" class="form-control" id="password" name="password"
                             value="{{ form.password.value|default_if_none:'' }}">
                     </div>
                     {% endblock %}

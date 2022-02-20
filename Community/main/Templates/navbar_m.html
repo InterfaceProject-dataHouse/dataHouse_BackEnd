@@ -12,7 +12,7 @@
             <ul class="memberInfo_wrap">
                 <li>
                     {% if user.is_authenticated %}
-                    <a href="{%url 'accounts:logout'%}"><img src="{%static 'image/mainPage/login.png'%}" alt="로그아웃" /><span>로그아웃</span></a>
+                    <a href="{%url 'accounts:logout'%}"><img src="{%static 'image/mainPage/login.png'%}" alt="로그아웃" /><span>{{user.username}}로그아웃</span></a>
                     {% else %}
                     <a href="{%url 'accounts:login'%}"><img src="{%static 'image/mainPage/login.png'%}" alt="로그인" /><span>로그인</span></a>
                     {% endif %}
