@@ -22,7 +22,7 @@ def register(request):
             login(request, user)
             #return HttpResponseRedirect(reverse('main:index'))
             #return render(request, 'main/index.html', user)
-            return redirect('main:index') ####################################################
+            return redirect('main/index.html') ####################################################
     else:
         form = UserForm()
     return render(request, 'accounts/register.html', {'form': form})
