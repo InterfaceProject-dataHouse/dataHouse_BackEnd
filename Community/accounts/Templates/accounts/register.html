@@ -4,7 +4,9 @@
 {% block content %}
 <div class="container my-3">
     <div class="dojoin">
-
+    <div>
+        <img src="{%static 'image/loginPage/join.jpg'%}" style="margin-top:20px;">
+    </div>
         <div class="join">
 
             <form method="post" class="joinForm">
@@ -12,22 +14,22 @@
                 {% csrf_token %}
                 {% include "form_errors.html" %}
                 <div class="textForm">
-                    <label for="username">사용자 이름</label>
+                    <label for="username">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp성명&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
                     <input type="text" class="form-control" name="username" id="username"
                            value="{{ form.username.value|default_if_none:'' }}">
                 </div>
                 <div class="textForm">
-                    <label for="password1">비밀번호</label>
+                    <label for="password1">&nbsp&nbsp&nbsp비밀번호&nbsp&nbsp&nbsp</label>
                     <input type="password" class="form-control" name="password1" id="password1"
                            value="{{ form.password1.value|default_if_none:'' }}">
                 </div>
                 <div class="textForm">
-                    <label for="password2">비밀번호 확인</label>
+                    <label for="password2">비밀번호확인&nbsp</label>
                     <input type="password" class="form-control" name="password2" id="password2"
                            value="{{ form.password2.value|default_if_none:'' }}">
                 </div>
-                <div class="textForm">
-                    <label for="email">이메일</label>
+                <div class="textForm" >
+                    <label for="email">&nbsp&nbsp&nbsp&nbsp이메일&nbsp&nbsp&nbsp&nbsp&nbsp</label>
                     <input type="text" class="form-control" name="email" id="email"
                            value="{{ form.email.value|default_if_none:'' }}">
                 </div>
