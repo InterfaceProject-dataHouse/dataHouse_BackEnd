@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
@@ -120,9 +120,14 @@ USE_TZ = True
 import os
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS=(
+STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+# 로그인 성공후 이동하는 URL
+LOGIN_REDIRECT_URL = '/'
+# 로그아웃 성공후 이동하는 URL
+LOGOUT_REDIRECT_URL = '/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

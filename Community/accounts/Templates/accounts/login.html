@@ -1,7 +1,6 @@
 {% include "base.html"%}
 
 {% block content %}
-	<!-- E Header -->
 
 	<!-- Contaniner -->
 	<div id="contaniner" class=""><!-- 벽돌 배경이미지 사용 시 class="bg-bricks" 적용 / 배경이미지가 없을 경우 class 삭제  -->
@@ -30,27 +29,29 @@
         </ul>
         <div class="box-login">
             <h3 class="hidden">회원 로그인</h3>
-            <form id="form1" method="post" action="{% url 'accounts:login' %}" novalidate="novalidate" onsubmit="return false">
+            <form id="form1" method="post" action="{% url 'accounts:login' %}">
                 {% csrf_token %}
-            <fieldset>
-                <legend>회원 로그인</legend>
-                <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
-                <div class="login">
-                    <input type="text" title="아이디" id="txtUserId" name="txtUserId" required="required"
-                        value="{{ form.username.value|default_if_none:'' }}">
-                    <input type="password" title="패스워드" id="txtPassword" name="txtPassword" required="required"
-                        value="{{ form.password.value|default_if_none:'' }}">
-                </div>
-                {% endblock %}
-                <div class="save-id"> <input type="checkbox" id="loginSet"><label for="save_id">아이디 저장</label></div>
+                <input type="hidden" name="next" value="{{ next }}">  <!-- 로그인 성공후 이동되는 URL --> <!--##########################-->
+                <fieldset>
+                    <legend>회원 로그인</legend>
+                    <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
+                    <div class="login">
+                        {% include "form_errors.html" %}
+                        <input type="text" class="form-control" id="username" name="username"
+                            value="{{ form.username.value|default_if_none:'' }}">
+                        <input type="password" class="form-control" id="password" name="password"
+                            value="{{ form.password.value|default_if_none:'' }}">
+                    </div>
+                    {% endblock %}
+                 <div class="save-id"> <input type="checkbox" id="loginSet"><label for="save_id">아이디 저장</label></div>
 
 
-                <button type="submit" id="submit" title="로그인"><span>로그인</span></button>
-                <div class="login-option">
-                    <a href="#">아이디 찾기</a>
-                    <a href="#">비밀번호 찾기</a>
-                </div>
-            </fieldset>
+                    <button type="submit" id="submit" title="로그인"><span>로그인</span></button>
+                    <div class="login-option">
+                        <a href="#">아이디 찾기</a>
+                        <a href="#">비밀번호 찾기</a>
+                    </div>
+                </fieldset>
             </form>
 			<div>
 				<a href="#" class="btn_loginNaver"><img src="https://img.cgv.co.kr/image_gt/login/btn_loginNaver.jpg" alt="네이버 로그인"></a>
@@ -81,12 +82,14 @@
 <!-- 실컨텐츠 끝 -->
 
 <!-- LogIn -->
+             <!--#################
 <form name="loginform" id="loginform" method="post" action="https://www.cgv.co.kr/user/login/login.aspx" novalidate="novalidate">
 	<input type="hidden" name="id" id="id">
 	<input type="hidden" name="password" id="password">
     <input type="hidden" name="id_save" id="id_save">
 	<input type="hidden" name="returnURL" value="https://www.cgv.co.kr/default.aspx">
 </form>
+-->
 <!-- //LogIn -->
 
 
