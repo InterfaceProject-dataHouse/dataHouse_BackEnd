@@ -14,7 +14,7 @@
                 {% csrf_token %}
                 {% include "form_errors.html" %}
                 <div class="textForm">
-                    <label for="username">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp성명&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <label for="username">&nbsp&nbsp&nbsp&nbsp&nbsp성명&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
                     <input type="text" class="form-control" name="username" id="username"
                            value="{{ form.username.value|default_if_none:'' }}">
                 </div>
