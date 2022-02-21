@@ -1,10 +1,12 @@
+{%load static%}
+
 {% include "base.html" %}
 {% block content %}
 <div class="container my-3">
-
     <div class="dojoin">
 
         <div class="join">
+
             <form method="post" class="joinForm">
                 <h2>회원가입</h2>
                 {% csrf_token %}
