@@ -199,10 +199,6 @@
 	.noticeClient_banner_wrap .noticeClient_banner_list .swiper-wrapper .swiper-slide a img{width:100%}
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7f308c1cf8094a69e05fd8fecee74ded3359eaa0
 	.noticeClient_banner_wrap .btn_noticeClientBannerControl{display:block; position:absolute; right:10px; bottom:10px; width:28px; height:28px; font-size:0; background:#fff url('../image/mainPage/play_b.png') 10px center/11px 15px scroll no-repeat; border:1px solid #e3e3e3; border-radius:50%; z-index:2}
 	.noticeClient_banner_wrap .btn_noticeClientBannerControl.active{background:#fff url('../image/mainPage/stop.png') center center/9px 13px scroll no-repeat}
 
