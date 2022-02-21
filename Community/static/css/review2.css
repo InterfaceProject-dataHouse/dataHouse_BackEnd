@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.item img{
+    width: 1920px;
+    max-height: 750px;
+    -webkit-filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    Left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #fff;
+    height: 500px;
+    border-radius:10px;
+    box-sizing: border-box;
+    overflow:hidden;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.3);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+} /*박스만드는 부분*/
+
+aside {
+    width : 220px;
+    height : 500px;
+    padding: 20px;
+    margin-bottom:20px;
+    boder:1px solid gray;
+    background-color : #d9d9d9;
+    float : right;
+        }
+.cover{
+    position:relative;
+    overflow:hidden;
+    background-size:cover;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.cover:before{
+    content: '';
+    position:absolute;
+    bottom:-36%;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(0deg, #000000 50%, transparent);
+    z-index: 1;
+    transition:0.5s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size:cover;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.card:hover .cover:before{
+    bottom: 0;
+}
+
+.cover img{
+    width: 100%;
+    height: 496px;
+    border-radius:10px;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+
+.details{
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 72%;
+    bottom: -42%;
+    transition: 0.5s;
+    Left: 0;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    box-sizing:border-box;
+    z-index:2;
+} /*글자 안으로 넣기 absolute*/
+
+.card:hover .details{
+    bottom: 0;
+
+} /* 이부분 지우고 details에 bottom 0으로 하면 원래대로 돌아감*/
+
+.details h3{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+
+.details h3 span{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.rating{
+    position: relative;
+    padding: 5px 0px;
+}
+
+.rating .fa{
+    color:yellow;
+    margin-right:2px;
+    font-size:20px;
+}
+
+.rating span{
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+.category{
+    position: relative;
+    margin-top: 5px;
+}
+
+.category span{
+    padding:2px 5px;
+}
+
+.info{
+    position:relative;
+    margin: 10px 5px 10px 5px;
+}
+
+.cast{
+    position:relative;
+    margin-top:5px;
+}
+
+.cast h4{
+    position:relative;
+    margin: 10px 5px;
+    font-size:20px;
+}
+
+.cast ul{
+    padding: 0px;
+    margin: 10px 0 0 ;
+    display:flex;
+}
+
+.cast ul li{
+    margin: 5px;
+    list-style:none;
+    border: 2px solid #fff;
+    border-radius:50px;
+    margin-right:5px;
+    overflow:hidden;
+
+}
+
+.cast ul li img{
+    width:100%;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
