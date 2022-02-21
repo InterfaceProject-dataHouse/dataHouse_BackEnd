@@ -20,9 +20,7 @@ def register(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             login(request, user)
-            #return HttpResponseRedirect(reverse('main:index'))
-            #return render(request, 'main/index.html', user)
-            return redirect('main/index.html') ####################################################
+            return redirect('main:index')
     else:
         form = UserForm()
     return render(request, 'accounts/register.html', {'form': form})
