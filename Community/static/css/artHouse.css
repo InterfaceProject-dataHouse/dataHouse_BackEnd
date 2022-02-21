@@ -1,0 +1,299 @@
+* {
+    font-family: 'Noto Sans KR', 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+}
+
+h3 {
+    height: 41px;
+    margin: 30px 0 15px;
+    background: url(https://img.cgv.co.kr/r2014/images/common/bg/bg_h3_line.jpg) repeat-x 0 50%;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style:none;
+}
+
+div {
+    display:block;
+}
+
+i {
+    font-style: normal;
+}
+
+input, select, img{
+    vertical-align: middle;
+}
+
+body, input, textarea, select, button, table {
+    line-height: 1.2;
+    color:#666;
+    font-weight:400;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#container {
+    position:relative;
+    width:100%;
+    z-index:7;
+}
+
+#contents {
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.heading-wrap {
+    position:relative;
+    height:60px;
+    padding-top:30px;
+    border-bottom: 3px solid; #241d1e;
+}
+
+.heading-wrap > h3 {
+    display: inline-block;
+    position: relative;
+    height: inherit;
+    margin: 0;
+    background-image: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.heading-wrap > h3 + a {
+    display: inline-block;
+}
+
+.heading-wrap > .subMenu {
+    position:absolute;
+    top: 18px;
+    right: 0;
+}
+
+.heading-wrap > .subMenu > ul {
+    overflow: hidden;
+}
+
+.heading-wrap > .subMenu > ul > li:first-child {
+    margin-left:0;
+}
+.heading-wrap > .subMenu > ul > li{
+    float:left;
+    margin-left: 15px;
+}
+
+.heading-wrap > .submenu > ul > li.on > a, .tit-heading-wrap > .submenu > ul > li > a:hover, .tit-heading-wrap > .submenu > ul > li > a:focus {
+    background: url(https://img.cgv.co.kr/r2014/images/common/ico/ico_arrow07.png) no-repeat 0 3px;
+    color: #fb4357;
+}
+
+.heading-wrap > .submenu > ul > li > a {
+    display: inline-block;
+    padding-left: 13px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.arthouse-visual{
+    clear:both;
+    zoom: 1;
+}
+
+.wrapChart{
+    position:relative;
+    clear:both;
+    margin-top:50px;
+}
+
+
+h3 > img{
+    padding: 0 8px;
+    background-color: #fdfcf0;
+}
+
+.wrapChart .sectChart {
+    margin-top: 30px;
+}
+
+.sectChart {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    zoom: 1;
+}
+
+.sectChart > ol:first-child{
+    padding-top: 0;
+}
+
+.sectChart > ol{
+    border-bottom: none;
+    margin-left: -64px;
+    zoom: 1;
+}
+
+.sectChart > ol > li{
+    float: left;
+    width: 197px;
+    margin-left: 64px;
+    padding-bottom : 30px;
+}
+
+.box-image{
+    position: relative;
+    width: 197px;
+    min-height: 272px;
+    margin-bottom: 10px;
+}
+
+.box-image a{
+    display:block;
+}
+
+.thumb-image {
+    display: block;
+    position: relative;
+}
+
+.thumb-image > img{
+    height:260px;
+}
+
+.box-image img{
+    width:100%;
+}
+
+.box-contents {
+    height: 93px;
+}
+
+.box-contents > a {
+    display:block;
+}
+
+.score{
+    margin-top: 7px;
+    font-size: 11px;
+}
+
+.score .percent {
+    vertical-align: middle;
+}
+
+strong{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.txt-info {
+    margin-top: 3px;
+    height: 13px;
+    color: #666666;
+    font-weight: 500;
+    white-space: nowrap;
+    display: block;
+    font-size: 12px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.like {
+    text-align: left;
+    display:block;
+    margin-top:10px;
+    margin-right: 3px;
+}
+
+.link-reservation {
+    display: inline-block;
+    width: 91px;
+    height: 35px;
+    background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_btn.png) 0 0 no-repeat;
+    font: 0/0 a;
+    zoom: 1;
+    vertical-align: top;
+}
+
+.nav {
+    position: absolute;
+    top: 113px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+.nav:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #a58e8e;
+}
+
+.nav:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 49px;
+    width: 100%;
+    height: 1px;
+    background-color: #fb4357;
+}
+
+.nav .contents {
+    position:relative;
+}
+
+.header .contents {
+    width:980px;
+    margin: 0 auto;
+}
+
+.nav .contents h1 {
+    display: none;
+}
+
+.nav_menu {
+    display: inline-flex;
+}
+
+.totalSearch_wrap {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    padding: 0 36px 0 10px;
+}
+
+.link-question {
+    width: 31px;
+    height: 27px;
+    background: #ffffff url(
+    https://img.cgv.co.kr/R2014/images/common/ico/ico_question.gif) 0 0 no-repeat;
+    vertical-align: top;
+    font: 0/0 a;
+    zoom: 1;
+}

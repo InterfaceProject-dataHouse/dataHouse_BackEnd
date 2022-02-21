@@ -1,0 +1,216 @@
+{%load static%}
+{% include "base_m.html"%}
+
+{% block content %}
+
+<div id="cgvwrap">
+    <div id="container">
+        <div id="contents">
+            <div class="heading-wrap">
+                <h3>아트하우스</h3>
+                <a href="#" class="link-question"></a>
+                <div class="subMenu">
+                    <ul>
+                        <li class='on'>
+                            <a href="#"  title='현재 선택'>HOME</a>
+                        </li>
+                        <li><a href="#" >영화</a></li>
+                        <li><a href="#" >상영시간표</a></li>
+                        <li><a href="#" >톡프로그램</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="arthouse-visual">
+                <img src="{%static 'image/artHouse/main_visual.jpg' %}">
+            </div>
+            <div class="wrapChart">
+                <h3>
+                    <img src="{%static 'image/artHouse/NowShowing.gif' %}">
+                </h3>
+                    <div class ="sectChart">
+                        <ol>
+                            <li>
+                                <div class="box-image">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=85633">
+                                        <span class="thumb-image">
+                                            <img src="{%static 'image/artHouse/GoodBoss.jpg' %}" class = "movieImage">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="box-contents">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=85633">
+                                       <strong class="title">굿 보스</strong>
+                                    </a>
+                                    <div class="score">
+                                        <strong class="percent">
+                                            "예매율"
+                                            <span>78.4%</span>
+                                        </strong>
+                                        <span class="txt-info">
+                                            <i>2022.02.10</i>
+                                            <strong>개봉</strong>
+                                        </span>
+                                        <span class="like">
+                                            <a class="link-reservation" href="http://www.cgv.co.kr/ticket/?MOVIE_CD=20028911&MOVIE_CD_GROUP=20028869">
+                                            예매</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box-image">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=85607">
+                                        <span class="thumb-image">
+                                            <img src="{%static 'image/artHouse/TheMother.jpg' %}" class = "movieImage">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="box-contents">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=85607">
+                                       <strong class="title">더 마더</strong>
+                                    </a>
+                                    <div class="score">
+                                        <strong class="percent">
+                                            "예매율"
+                                            <span>7.1%</span>
+                                        </strong>
+                                        <span class="txt-info">
+                                            <i>2022.02.10</i>
+                                            <strong>개봉</strong>
+                                        </span>
+                                        <span class="like">
+                                            <a class="link-reservation" href="http://www.cgv.co.kr/ticket/?MOVIE_CD=20028811&MOVIE_CD_GROUP=20028811">
+                                            예매</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box-image">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=78723">
+                                        <span class="thumb-image">
+                                            <img src="{%static 'image/artHouse/Carol.jpg' %}" class = "movieImage">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="box-contents">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=78723">
+                                       <strong class="title">캐롤</strong>
+                                    </a>
+                                    <div class="score">
+                                        <strong class="percent">
+                                            "예매율"
+                                            <span>6.0%</span>
+                                        </strong>
+                                        <span class="txt-info">
+                                            <i>2022.02.04</i>
+                                            <strong>재개봉</strong>
+                                        </span>
+                                        <span class="like">
+                                            <a class="link-reservation" href="http://www.cgv.co.kr/ticket/?MOVIE_CD=20028896&MOVIE_CD_GROUP=20009174">
+                                            예매</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="box-image">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=82987">
+                                        <span class="thumb-image">
+                                            <img src="{%static 'image/artHouse/Picture.jpg' %}" class = "movieImage">
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="box-contents">
+                                    <a href="http://www.cgv.co.kr/movies/detail-view/?midx=82987">
+                                       <strong class="title">타오르는 여인의 초상</strong>
+                                    </a>
+                                    <div class="score">
+                                        <strong class="percent">
+                                            "예매율"
+                                            <span>5.8%</span>
+                                        </strong>
+                                        <span class="txt-info">
+                                            <i>2022.02.03</i>
+                                            <strong>재개봉</strong>
+                                        </span>
+                                        <span class="like">
+                                            <a class="link-reservation" href="http://www.cgv.co.kr/ticket/?MOVIE_CD=20028898&MOVIE_CD_GROUP=20022183">
+                                            예매</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ol>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sect_art_hd_trailer cf">
+        <div class="thumb">
+            <h3>
+                <a href="#">
+                    <img src="{%static 'image/artHouse/tit_trailer_re.jpg' %}" alt="CGV 아트하우스 한국 영화인 헌정 프로젝트 The Respect - CGV 아트하우스 한국영화인 헌정 프로젝트는 한국 영화의 위상을 높인 영화인에게 존경과 감사의 마음으로 상영관을 헌정하고 헌정인의 업적을 조명하는 프로젝트입니다."/>
+                </a>
+            </h3>
+        </div>
+        <div class="player_area">
+
+                    <a href="#" title="닮은 역사 예고편 트레일러 영상보기(새창열림)" class="movie_player_popup" data-gallery-idx="190327">
+                        <span class="thumb-image" style="background-image:url(https://img.cgv.co.kr/Movie/Thumbnail/Trailer/84558/84558190327_148.jpg);">
+                            <span>닮은 역사 예고편 트레일러</span>
+                            <span class="ico-play">영상보기</span>
+                        </span>
+                    </a>
+
+        </div>
+
+    </div>
+
+    <div class="sect-talkprogram cf">
+        <h3>
+            <img src="{%static 'image/artHouse/h3_talk_program.gif' %}" alt="TALK PROGRAM" />
+        </h3>
+        <div class="program_list type3">
+            <ul>
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="{%static 'image/artHouse/dt_talk_program1.jpg' %}" alt="CINEMA TALK - 시네마톡" />
+                        </dt>
+                        <dd>
+                            <img src="{%static 'image/artHouse/dd_talk_program1.jpg' %}"  alt="감독, 배우, 평론가, 다양한 분야의 전문가와 함께 하는 진짜 영화 이야기"  />
+                        </dd>
+                    </dl>
+                </li>
+
+               <li>
+                    <dl>
+                        <dt>
+                            <img src="{%static 'image/artHouse/dt_talk_program2.jpg' %}" alt="LIVE TALK - 라이브톡" />
+                        </dt>
+                        <dd>
+                            <img src="{%static 'image/artHouse/dd_talk_program2.jpg' %}" alt="전국 주요 CGV아트하우스 전용관에서 생중계되는 이동진 평론가의 섬세하고 풍부한 ‘라이브’ 평론  프로그램" />
+                        </dd>
+                    </dl>
+                </li>
+
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="{%static 'image/artHouse/dt_talk_program5_re.jpg' %}" alt="CURATOR - 큐레이터" />
+                        </dt>
+                        <dd>
+                            <img src="{%static 'image/artHouse/dd_talk_program5.jpg' %}"  alt="영화 상영 후 신진영화 평론가가 진행하는 짧지만 알찬 관계밀착형 영화 해설"  />
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        </div>
+</div>
+{% endblock %}
+{% include "footer_m.html" %}
