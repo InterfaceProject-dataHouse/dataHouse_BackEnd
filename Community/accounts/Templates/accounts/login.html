@@ -34,8 +34,8 @@
                 {% csrf_token %}
                 <input type="hidden" name="next" value="{{ next }}">  <!-- 로그인 성공후 이동되는 URL --> <!--##########################-->
                 <fieldset>
-                    <legend>회원 로그인</legend>
-                    <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
+
+                    아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.
                     <div class="login">
                         {% include "form_errors.html" %}
                         <input type="text" class="form-control" id="username" name="username"
@@ -44,7 +44,7 @@
                             value="{{ form.password.value|default_if_none:'' }}">
                     </div>
                     {% endblock %}
-                 <div class="save-id"> <input type="checkbox" id="loginSet"><label for="save_id">아이디 저장</label></div>
+                 <div class="save-id"> <input type="checkbox" id="loginSet"><label for="save_id"> 아이디 저장</label></div>
 
 
                     <button type="submit" id="submit" title="로그인"><span>로그인</span></button>
