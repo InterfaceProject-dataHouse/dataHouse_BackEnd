@@ -247,7 +247,7 @@ footer .policy_list li a strong{font-weight:700; color:#222; text-decoration:und
 footer .company_info_wrap{display:flex; justify-content:space-between; align-items:flex-end; max-width:980px; margin:0 auto; padding:23px 0}
 	.company_info{font-size:12px; color:#666; line-height:1.667em}
 	.company_info address{font-style:normal}
-    .company_info .company_info_list{margin:0;}
+	.company_info .company_info_list{margin:0;}
     .company_info .company_info_list dt:after{content:':'; padding:0 4px}
     .company_info .company_info_list dt ~ dt:before{content:'·'; padding:0 8px 0 4px}
     .company_info .company_info_list dd a{text-decoration:underline}
