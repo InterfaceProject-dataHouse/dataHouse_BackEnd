@@ -1,0 +1,42 @@
+{%load static%}
+{% include "base_m.html"%}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+       <div class="item active">
+            <img src="{%static 'image/review/나일강의죽음.jpg' %}">
+            <div class="card">
+                <div class="cover">
+                    <img src="{%static 'image/review/나일강의죽음.jpg' %}">
+                </div>
+                <div class="details">
+                    <h2>나일 강의 죽음<br></h2><h4><span>감독 : 케네스 브래너</span></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>7.26</span>
+                    </div>
+
+                    <div class="category">
+                        <span>&bullet; 범죄</span>
+                        <span>&bullet; 드라마</span> <!--bullet은 앞에 점-->
+                        <span>&bullet; 미스터리</span>
+                    </div>
+                    <div class="info">
+                        <p>'오리엔트 특급 살인'을 이을 또 하나의 완벽한 살인사건! 살인은 시작에 불과 했다!</p> <!--줄거리 더 넣을까..-->
+                    </div>
+                    <div class="cast">
+                        <h4>Cast</h4>
+                        <ul>
+                            <li><img src="{%static 'image/review/나_캐네스.png' %}"></li>
+                            <li><img src="{%static 'image/review/나_캘가돗.png' %}"></li>
+                            <li><img src="{%static 'image/review/나_레티티아.png' %}"></li>
+                            <li><img src="{%static 'image/review/나_톰.png' %}"></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

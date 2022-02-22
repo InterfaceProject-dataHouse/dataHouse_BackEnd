@@ -11,8 +11,17 @@ def main_ind(request):
 def artHouse(request):
     return render(request, 'main/artHouse.html')
 
+def review1(request):
+    return render(request, 'main/review1.html')
+
 def review2(request):
     return render(request, 'main/review2.html')
+
+def review3(request):
+    return render(request, 'main/review3.html')
+
+def review4(request):
+    return render(request, 'main/review4.html')
 
 def reviewPage(request):
     # return render(request, 'main/reviewPage.html')

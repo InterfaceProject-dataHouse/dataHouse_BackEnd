@@ -1,0 +1,40 @@
+{%load static%}
+{% include "base_m.html"%}
+
+{% block content %}
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="{%static 'image/review/언차티드.jpg' %}">
+            <div class="card">
+                <div class="cover">
+                    <img src="{%static 'image/review/언차티드.jpg' %}">
+                </div>
+                <div class="details">
+                    <h2>언차티드<br></h2><h4><span>감독 : 루벤 플레셔</span></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>7.21</span>
+                    </div>
+
+                    <div class="category">
+                        <span>&bullet; 액션</span>
+                        <span>&bullet; 어드벤처</span> <!--bullet은 앞에 점-->
+                    </div>
+                    <div class="info">
+                        <p>모든 것을 걸었다면 세상 누구보다 빠르게 찾아야 한다!</p> <!--줄거리 더 넣을까..-->
+                    </div>
+                    <div class="cast">
+                        <h4>Cast</h4>
+                        <ul>
+                            <li><img src="{%static 'image/review/un_루벤플레셔.png' %}"></li>
+                            <li><img src="{%static 'image/review/un_톰홀랜드.png' %}"></li>
+                            <li><img src="{%static 'image/review/un_마크윌버그.png' %}"></li>
+                            <li><img src="{%static 'image/review/un_안토니오.png' %}"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+  </div>
+{% endblock %}
