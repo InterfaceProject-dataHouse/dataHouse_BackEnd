@@ -1,0 +1,42 @@
+{%load static%}
+{% include "base_r.html"%}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+       <div class="item active">
+            <img src="{%static 'image/review/듄.jpg' %}">
+            <div class="card">
+                <div class="cover">
+                    <img src="{%static 'image/review/듄.jpg' %}">
+                </div>
+                <div class="details">
+                    <h2>듄<br></h2><h4><span>감독 : 드니 빌뇌브</span></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>8.82</span>
+                    </div>
+
+                    <div class="category">
+                        <span>&bullet; 모험</span>
+                        <span>&bullet; 드라마</span> <!--bullet은 앞에 점-->
+                        <span>&bullet; SF</span>
+                    </div>
+                    <div class="info">
+                        <p>위대한 자는 부름에 응답한다, 두려움에 맞서라, 이것은 위대한 시작이다!</p> <!--줄거리 더 넣을까..-->
+                    </div>
+                    <div class="cast">
+                        <h4>Cast</h4>
+                        <ul>
+                            <li><img src="{%static 'image/review/듄_드니.png' %}"></li>
+                            <li><img src="{%static 'image/review/듄_오스카.png' %}"></li>
+                            <li><img src="{%static 'image/review/듄_레베카.png' %}"></li>
+                            <li><img src="{%static 'image/review/듄_티모시.png' %}"></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
