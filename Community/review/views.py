@@ -6,13 +6,13 @@ from .models import *
 # Create your views here.
 
 def review1(request):
-    return render(request, 'main/review1.html')
+    return render(request, 'review/review1.html')
 
 def review2(request):
-    return render(request, 'main/review2.html')
+    return render(request, 'review/review2.html')
 
 def review3(request):
-    return render(request, 'main/review3.html')
+    return render(request, 'review/review3.html')
 
 def review4(request):
-    return render(request, 'main/review4.html')
+    return render(request, 'review/review4.html')
