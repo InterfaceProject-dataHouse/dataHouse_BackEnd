@@ -1,0 +1,42 @@
+{%load static%}
+{% include "base_r.html"%}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+       <div class="item active">
+            <img src="{%static 'image/review/해리포터.jpg' %}">
+            <div class="card">
+                <div class="cover">
+                    <img src="{%static 'image/review/해리포터.jpg' %}">
+                </div>
+                <div class="details">
+                    <h2>해리 포터와 불사조 기사단</h2><h4><span>감독 : 데이빗 예이츠</span></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>7.04</span>
+                    </div>
+
+                    <div class="category">
+                        <span>&bullet; 환타지</span>
+                        <span>&bullet; 액션</span> <!--bullet은 앞에 점-->
+                        <span>&bullet; 어드벤처</span>
+                    </div>
+                    <div class="info">
+                        <p>어둠의 세력에 빠진 호그와트를 구하기 위해 해리포터와 불사조 기사단, 그들이 손을 잡았다!</p> <!--줄거리 더 넣을까..-->
+                    </div>
+                    <div class="cast">
+                        <h4>Cast</h4>
+                        <ul>
+                            <li><img src="{%static 'image/review/해_데이빗.png' %}"></li>
+                            <li><img src="{%static 'image/review/해_다니엘.png' %}"></li>
+                            <li><img src="{%static 'image/review/해_엠마.png' %}"></li>
+                            <li><img src="{%static 'image/review/해_루퍼트.png' %}"></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

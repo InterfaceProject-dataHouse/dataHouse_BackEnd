@@ -179,7 +179,7 @@
 .noticeClient_wrap .contents .noticeClient_container .noticeClient_content .notice_wrap .btn_more{float:right; padding:2px 15px 3px; font-weight:400; font-size:12px; color:#666; line-height:1.417em; border:1px solid #f4f4f4; border-radius:11px}
 
 	/* .client_wrap{} */
-	.client_wrap .client_list{display:flex; padding:19px 0 22px}
+	.client_wrap .client_list{display:flex; padding-top : 10px;}
 	.client_wrap .client_list dt{font-weight:500; font-size:16px; color:#222; line-height:1.500em}
 	.client_wrap .client_list dd{overflow:hidden; padding-left:28px}
 	.client_wrap .client_list dd strong{display:block; font-weight:700; font-size:14px; color:#222; line-height:1.714em}

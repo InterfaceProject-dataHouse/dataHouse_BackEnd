@@ -16,3 +16,6 @@ def review3(request):
 
 def review4(request):
     return render(request, 'review/review4.html')
+
+def review5(request):
+    return render(request, 'review/review5.html')
