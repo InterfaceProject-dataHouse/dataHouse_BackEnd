@@ -4,7 +4,17 @@
   text-decoration: none;
   font-family:sans-serif;
 }
+.dojoin {
+    margin-bottom:-220px;
+}
 
+.wrap-join-2016 {
+    text-align:center;
+}
+
+.benefit-list {
+    margin-left:25%;
+}
 
 body {
   background-image:#34495e;
@@ -30,6 +40,7 @@ body {
   border-bottom: 3px solid #adadad;
   margin: 10px;
   padding: 10px;
+  text-align:center;
 }
 
 
@@ -38,9 +49,9 @@ body {
   border:none;
   outline:none;
   color: #636e72;
-  font-size:16px;
   height:25px;
   background: none;
+
 }
 
 .pw {
@@ -48,9 +59,9 @@ body {
   border:none;
   outline:none;
   color: #636e72;
-  font-size:16px;
   height:25px;
   background: none;
+  margin-left: -10px;
 }
 
 .email {
@@ -108,3 +119,6 @@ body {
     background:white;
     box-sizing: border-box;
 }
+
+
+
