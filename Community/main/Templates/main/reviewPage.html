@@ -1,6 +1,7 @@
 {%load static%}
 {% include "base_m.html"%}
 {% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
 
 <div class="rev_content">
     <div class="messageDiv">
@@ -26,7 +27,7 @@
             {% for review in reviews %}
             <form action="" method="GET">
                 <div class="input-group" name="todo1">
-                    <li class="list-group-item">{{ review.review_cont }}</li>
+                    <li class="list-group-item">{{ review.content }}</li>
                     <input type="hidden" id="todoNum" name="todoNum" value="{{ todo.id }}"></input>
                 </div>
             </form>
