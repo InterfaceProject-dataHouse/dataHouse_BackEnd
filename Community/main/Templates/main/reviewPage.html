@@ -19,12 +19,14 @@
 
     <div class="toDoDiv">
         <ul class="list-group">
+            {% for review in reviews %}
             <form action="" method="GET">
                 <div class="input-group" name="todo1">
-                    <li class="list-group-item">한줄평 리스트가 여기에 입력됩니다.</li>
-                    <input type="hidden" id="todoNum" name="todoNum" value="1">
+                    <li class="list-group-item">{{ review.review_cont }}</li>
+                    <input type="hidden" id="todoNum" name="todoNum" value="{{ todo.id }}"></input>
                 </div>
             </form>
+            {% endfor %}
         </ul>
     </div>
 </div>
