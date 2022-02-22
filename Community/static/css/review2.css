@@ -22,7 +22,7 @@ body{
     Left: 50%;
     transform: translate(-50%,-50%);
     border: 2px solid #fff;
-    height: 500px;
+    height: 57%;
     border-radius:10px;
     box-sizing: border-box;
     overflow:hidden;
