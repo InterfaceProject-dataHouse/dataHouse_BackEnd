@@ -11,7 +11,11 @@
                 <input id="todoContent" name="todoContent" type="text" class="form-control" placeholder="관람하신 영화의 한줄평을 작성해주세요.">
             </div>
                 <span class="input-group-btn">
+                    {% if user.is_authenticated %}
                     <button class="btn btn-default" type="submit">등록</button>
+                    {% else %}
+                    <button type="button" class="btn btn-default" onclick="javascript:alert('로그인해주세요!')">등록</button>
+                    {% endif %}
                 </span>
 
         </form>
@@ -32,5 +36,5 @@
 </div>
 
 
-{% include "footer_m.html"%}
 {% endblock %}
+{% include "footer_m.html"%}
