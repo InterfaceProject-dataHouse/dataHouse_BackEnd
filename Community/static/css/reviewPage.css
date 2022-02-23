@@ -41,7 +41,7 @@
 }
 
 .input-group-btn button{
-    height: 45px;
+    height: 47px;
     padding: 0 20px 1px 19px;
     border-radius: 0 6px 6px 0;
     border: none;
@@ -67,13 +67,13 @@
 }
 .toDoDiv .list-group-item {
     width: 88%;
-    height: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius:5px;
     border-style: none;
     background-color: #fafafa;
-    text-align: center;
+    text-align: align;
+    padding:20px;
     display: flex;
 }
 
